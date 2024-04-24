@@ -5,4 +5,7 @@ function incrementBtn(){
 	elem.innerHTML+="<P>Callhouse:300 says</p>";
 	console.log(elem);
 	body.appendchild(elem);
+	for(let i=0; i<3; i++){
+		
+	}
 }
