@@ -7,4 +7,5 @@ let button = document.getElementById('incrementBtn');
 button.addEventListener('click', function() {
     // Increment the counter and update the text content
     // Display an alert with the un-incremented value
+	counter++;
 });
