@@ -4,8 +4,9 @@ let counter = document.getElementById('counter');
 let button = document.getElementById('incrementBtn');
 
 // Add event listener to the button
-button.addEventListener('click', function() {
-    // Increment the counter and update the text content
-    // Display an alert with the un-incremented value
-	counter++;
+let counterValue="0";
+incrementBtn.addEventListener("click", function() {
+    alert(counterValue);
+    counterValue++;
+    counterElement.textContent = counterValue;
 });
