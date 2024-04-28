@@ -1,11 +1,10 @@
 //your JS code here. If required.
-let body=document.getElementById("my_body");
-function incrementBtn(){
-	let elm=document.createElement("div");
-	elem.innerHTML+="<P>Callhouse:300 says</p>";
-	console.log(elem);
-	body.appendchild(elem);
-	for(let i=0; i<3; i++){
-		
-	}
-}
+// Access the elements
+let counter = document.getElementById('counter');
+let button = document.getElementById('incrementBtn');
+
+// Add event listener to the button
+button.addEventListener('click', function() {
+    // Increment the counter and update the text content
+    // Display an alert with the un-incremented value
+});
