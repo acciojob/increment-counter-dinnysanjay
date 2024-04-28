@@ -1,10 +1,11 @@
 //your JS code here. If required.
-// Access the elements
-let counter = document.getElementById('counter');
-let button = document.getElementById('incrementBtn');
+let counterElement = document.getElementById('counter');
+let incrementBtn = document.getElementById('incrementBtn');
+
+// Initialize counter value
+let counterValue = 0;
 
 // Add event listener to the button
-let counterValue="0";
 incrementBtn.addEventListener("click", function() {
     alert(counterValue);
     counterValue++;
